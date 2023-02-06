@@ -1,0 +1,58 @@
+.header {
+  // background-image: linear-gradient(to bottom right, #474747, #222222);
+  background: linear-gradient(-219.84deg, #474747 4.14%, #222222 44.22%);
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.Heading__Detail {
+  display: flex;
+  align-items: flex-start;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &--textBox {
+    width: 60%;
+  }
+
+  &--main-heading {
+    font-size: 6.4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+    color: #ffffffff;
+  }
+
+  &--para {
+    font-size: 1.8rem;
+    max-width: 80%;
+    color: #c4c4c4;
+    line-height: 2.7;
+    font-weight: 500;
+  }
+
+  &--img-box {
+  }
+
+  // &--img {
+  //   height: 100%;
+  //   width: 100%;
+  //   display: block;
+  // }
+}
+
+/////////////////////////////Discover More Btn
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 2rem 4.3rem;
+  color: #ffffff;
+
+  background-image: linear-gradient(to bottom right, #60bbee, #0a72ad);
+  margin-top: 4rem;
+}

@@ -1,0 +1,29 @@
+///////////////////////COLOR VARIABLE
+$gray-color: #c4c4c4;
+$white-color: #ffffff;
+
+////////////////////////////////////
+/// break points
+$screen-1366: 85.375em;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; ////////////////////10px
+
+  // @media only screen and (max-width: $screen-1366) {
+  //   font-size: 50%; //////////////////8px
+  // }
+}
+
+body {
+  font-size: 1rem;
+  color: $white-color;
+  font-family: "Poppins", sans-serif;
+}

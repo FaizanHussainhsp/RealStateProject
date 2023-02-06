@@ -1,0 +1,96 @@
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.active {
+  color: #ffffff;
+}
+
+.mr-top-light {
+  margin-top: 1rem;
+}
+.mr-top-medium {
+  margin-top: 2rem;
+}
+.mr-top-large {
+  margin-top: 3rem;
+}
+
+///////////////////////////////////////////
+///header Image Setting
+.headerMainImage {
+  display: inline-block;
+  position: absolute;
+  top: -1%;
+  right: 0;
+  overflow: hidden;
+}
+
+///////////////////////////////////////////
+/// Operation Detail
+.operatingDetail {
+  top: 72.3rem;
+  right: 0;
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #399fd8, #003756);
+  padding: 3rem 3.5rem;
+  display: flex;
+  max-width: 55%;
+  align-items: center;
+
+  &__Detail--Text {
+    max-width: 53%;
+    font-size: 1.8rem;
+    margin-left: 6rem;
+    line-height: 2.1;
+  }
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  & > * {
+    margin-top: 1rem;
+  }
+
+  &__heading {
+    margin-top: 2rem;
+  }
+
+  &__detail {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+}
+
+.year {
+  font-size: 1.8rem;
+  margin-left: 4rem;
+  line-height: 1.2;
+
+  &__Img {
+    float: right;
+    transform: translateX(1.5rem);
+  }
+
+  &__para {
+  }
+
+  &__25 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  &__Operated {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+
+  &__year {
+    margin-left: 2.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+  }
+}

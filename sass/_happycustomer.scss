@@ -1,0 +1,27 @@
+.happyCustomer {
+  margin-top: 4rem;
+  display: flex;
+  align-items: flex-end;
+  & > *:not(:first-child) {
+    margin-left: 2rem;
+  }
+}
+
+.happyClient {
+  &__text {
+    display: inline-block;
+    color: #c4c4c4;
+    font-size: 1.8rem;
+    width: 50%;
+    font-weight: 600;
+  }
+}
+
+.secondryHeading {
+  font-size: 3.6rem;
+}
+
+////////////////////Plus Sign
+.PlusSign {
+  color: #2387c0;
+}

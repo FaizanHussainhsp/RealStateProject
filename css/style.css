@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif; }
+
+.header {
+  background: linear-gradient(-219.84deg, #474747 4.14%, #222222 44.22%);
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+
+.Heading__Detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .Heading__Detail--textBox {
+    width: 60%; }
+  .Heading__Detail--main-heading {
+    font-size: 6.4rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+    color: #ffffffff; }
+  .Heading__Detail--para {
+    font-size: 1.8rem;
+    max-width: 80%;
+    color: #c4c4c4;
+    line-height: 2.7;
+    font-weight: 500; }
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 2rem 4.3rem;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom right, #60bbee, #0a72ad);
+  margin-top: 4rem; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  padding-top: 5rem; }
+  .navbar--links {
+    list-style: none;
+    width: 71%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between; }
+  .navbar--item {
+    flex-grow: 4; }
+  .navbar--link {
+    color: #c4c4c4;
+    text-decoration: none; }
+  .navbar--logoBox {
+    flex-grow: 1; }
+    .navbar--logoBox > * {
+      display: block; }
+    .navbar--logoBox--Project {
+      color: #0a72ad;
+      font-weight: 700;
+      font-size: 2.5rem; }
+
+.container {
+  max-width: 85%;
+  margin: 0 auto; }
+
+.active {
+  color: #ffffff; }
+
+.mr-top-light {
+  margin-top: 1rem; }
+
+.mr-top-medium {
+  margin-top: 2rem; }
+
+.mr-top-large {
+  margin-top: 3rem; }
+
+.headerMainImage {
+  display: inline-block;
+  position: absolute;
+  top: -1%;
+  right: 0;
+  overflow: hidden; }
+
+.operatingDetail {
+  top: 72.3rem;
+  right: 0;
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #399fd8, #003756);
+  padding: 3rem 3.5rem;
+  display: flex;
+  max-width: 55%;
+  align-items: center; }
+  .operatingDetail__Detail--Text {
+    max-width: 53%;
+    font-size: 1.8rem;
+    margin-left: 6rem;
+    line-height: 2.1; }
+
+.general {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem; }
+  .general > * {
+    margin-top: 1rem; }
+  .general__heading {
+    margin-top: 2rem; }
+  .general__detail {
+    font-size: 2.2rem;
+    font-weight: 600; }
+
+.year {
+  font-size: 1.8rem;
+  margin-left: 4rem;
+  line-height: 1.2; }
+  .year__Img {
+    float: right;
+    transform: translateX(1.5rem); }
+  .year__25 {
+    font-size: 3rem;
+    font-weight: 600; }
+  .year__Operated {
+    font-size: 2.4rem;
+    font-weight: 500; }
+  .year__year {
+    margin-left: 2.5rem;
+    font-weight: 500;
+    font-size: 2rem; }
+
+.happyCustomer {
+  margin-top: 4rem;
+  display: flex;
+  align-items: flex-end; }
+  .happyCustomer > *:not(:first-child) {
+    margin-left: 2rem; }
+
+.happyClient__text {
+  display: inline-block;
+  color: #c4c4c4;
+  font-size: 1.8rem;
+  width: 50%;
+  font-weight: 600; }
+
+.secondryHeading {
+  font-size: 3.6rem; }
+
+.PlusSign {
+  color: #2387c0; }
+
+.ourclients {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem 2rem; }
+  .ourclients__setPosition {
+    transform: translateY(-1rem); }
+
+.ourExecellentServices {
+  background-color: #f6f6f6; }
+  .ourExecellentServices__header {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    .ourExecellentServices__header--secondaryHeading {
+      color: #242527;
+      font-size: 4.6rem;
+      font-weight: 600;
+      width: 40.4rem; }
+    .ourExecellentServices__header--para {
+      font-family: "Poppins";
+      font-style: normal;
+      color: #000000;
+      font-size: 1.8rem;
+      font-weight: 600;
+      width: 56.1rem;
+      line-height: 2.7; }
+
+.cards {
+  display: flex;
+  justify-content: space-between; }
+
+.card__heading {
+  font-size: 2.8rem;
+  color: #242527;
+  font-weight: 600; }
+
+.card__detail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 4.7rem;
+  color: #000000;
+  width: 35.4rem; }

@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  padding-top: 5rem;
+
+  &--links {
+    list-style: none;
+
+    width: 71%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--item {
+    flex-grow: 4;
+  }
+
+  &--link {
+    color: #c4c4c4;
+    text-decoration: none;
+    // flex-grow: 1;
+  }
+
+  &--logoBox {
+    flex-grow: 1;
+    & > * {
+      display: block;
+    }
+
+    &--Project {
+      color: #0a72ad;
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+  }
+}

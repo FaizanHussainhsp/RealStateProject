@@ -1,0 +1,10 @@
+.ourclients {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem 2rem;
+
+  &__setPosition {
+    transform: translateY(-1rem);
+  }
+}

@@ -1,0 +1,26 @@
+.ourExecellentServices {
+  background-color: #f6f6f6;
+
+  &__header {
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &--secondaryHeading {
+      color: #242527;
+      font-size: 4.6rem;
+      font-weight: 600;
+      width: 40.4rem;
+    }
+
+    &--para {
+      font-family: "Poppins";
+      font-style: normal;
+      color: #000000;
+      font-size: 1.8rem;
+      font-weight: 600;
+      width: 56.1rem;
+      line-height: 2.7;
+    }
+  }
+}
