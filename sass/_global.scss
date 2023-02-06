@@ -1,10 +1,10 @@
-///////////////////////COLOR VARIABLE
+// ///////////////////////COLOR VARIABLE
 $gray-color: #c4c4c4;
 $white-color: #ffffff;
 
-////////////////////////////////////
-/// break points
-$screen-1366: 85.375em;
+// ////////////////////////////////////
+// /// break points
+// $screen-1366: 85.375em;
 
 *,
 *::after,
@@ -26,4 +26,5 @@ body {
   font-size: 1rem;
   color: $white-color;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }

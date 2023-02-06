@@ -11,19 +11,18 @@ html {
 body {
   font-size: 1rem;
   color: #ffffff;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  position: relative; }
 
 .header {
   background: linear-gradient(-219.84deg, #474747 4.14%, #222222 44.22%);
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  overflow: hidden; }
+  padding-bottom: 5rem; }
 
 .Heading__Detail {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  align-items: flex-start; }
+  justify-content: space-between; }
   .Heading__Detail--textBox {
     width: 60%; }
   .Heading__Detail--main-heading {
@@ -35,10 +34,18 @@ body {
     color: #ffffffff; }
   .Heading__Detail--para {
     font-size: 1.8rem;
-    max-width: 80%;
     color: #c4c4c4;
     line-height: 2.7;
     font-weight: 500; }
+  .Heading__Detail--img-box {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: -5%;
+    right: 0%; }
+  .Heading__Detail--img {
+    height: 100%;
+    width: 100%; }
 
 .btn {
   text-decoration: none;
@@ -82,34 +89,19 @@ body {
 .active {
   color: #ffffff; }
 
-.mr-top-light {
-  margin-top: 1rem; }
-
-.mr-top-medium {
-  margin-top: 2rem; }
-
-.mr-top-large {
-  margin-top: 3rem; }
-
-.headerMainImage {
-  display: inline-block;
-  position: absolute;
-  top: -1%;
-  right: 0;
-  overflow: hidden; }
-
 .operatingDetail {
-  top: 72.3rem;
-  right: 0;
   position: absolute;
+  top: 100%;
+  right: 0%;
+  transform: translateY(-16rem);
+  z-index: 10000;
   background-image: linear-gradient(to bottom right, #399fd8, #003756);
-  padding: 3rem 3.5rem;
+  padding: 3.5rem 5rem;
   display: flex;
-  max-width: 55%;
-  align-items: center; }
+  width: 51%; }
   .operatingDetail__Detail--Text {
     max-width: 53%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-left: 6rem;
     line-height: 2.1; }
 
@@ -143,10 +135,15 @@ body {
     font-weight: 500;
     font-size: 2rem; }
 
+.test {
+  display: flex; }
+  .test > *:not(:first-child) {
+    margin-left: 2.5rem; }
+
 .happyCustomer {
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   display: flex;
-  align-items: flex-end; }
+  align-items: center; }
   .happyCustomer > *:not(:first-child) {
     margin-left: 2rem; }
 
