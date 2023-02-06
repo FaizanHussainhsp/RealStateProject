@@ -1,7 +1,14 @@
 .happyCustomer {
-  margin-top: 4rem;
+  // position: relative;
+  margin-top: 4.5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+
+  // justify-content: space-between;
+
+  // justify-content: center;
+
+  // align-items: flex-end;
   & > *:not(:first-child) {
     margin-left: 2rem;
   }
